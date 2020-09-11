@@ -22,3 +22,17 @@
 .card{
     margin-right: 300px
 }
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('../../../assets/image/milka.jpg');
+    background-size: cover;
+  }
+  
+  .example-header-images {
+    background-image: url('../../../assets/image/croqueta1.jpg');
+    background-size: cover;
+  }
