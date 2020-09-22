@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './principales/header/header.component';
-import { BodyComponent } from './principales/body/body.component'
+import { BodyComponent } from './principales/body/body.component';
+import { FooterComponent } from './principales/footer/footer.component';
+import { MilkaComponent } from './milka/milka.component';
+import { CroquetaComponent } from './croqueta/croqueta.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    FooterComponent,
+    MilkaComponent,
+    CroquetaComponent
   ],
   imports: [
     BrowserModule,
